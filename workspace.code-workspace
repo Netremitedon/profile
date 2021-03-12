@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "profile",
+			"path": "."
+		},
+		{
+			"name": "css",
+			"path": "../../Downloads/bootstrap-5.0.0-beta1-dist/css"
+		},
+		{
+			"path": "../../Downloads/bootstrap-5.0.0-beta1-dist/js"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "profile",
+		"liveServer.settings.port": 5501
+	}
+}

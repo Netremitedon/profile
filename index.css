@@ -1,0 +1,16 @@
+.navbar{
+    padding: 0;
+    list-style: none;
+    float: left;
+    margin-left: 1em;   
+}
+
+.nav{
+    display: inline-block;
+    margin-right: 1em;  
+    font-weight: 700;
+    text-decoration: underline;
+}
+li{
+    color: black;
+}
