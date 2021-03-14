@@ -3,16 +3,23 @@
 }
 
 .cedric{
+    background-image: url(/resource/cedric.jpeg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
     padding: 60px;
-    text-align: center;
-    
+    text-align:left;
     color: white;
-    font-size: 30px;  
+    font-size: 20px;  
     font-family: Impact; 
 }
-
+h1{
+   
+}
 .navbar{
-    background-image: url("resource/nav background.jpeg");
+    background-image: url("/resource/nav\ back2.jpeg");
     list-style-type: none;
     text-align: left;
     margin: 0px;
@@ -30,6 +37,8 @@
 
 .navbar a:hover {
     border: outset;
+    background-color: #ddd;
+    color: black;
     padding-block: 8px;
 }
 .navbar a.active {
@@ -48,6 +57,13 @@ body{
     background-color: #2f302f;
 }
 
+main p{
+    color: white;
+    font-family: Arial;
+}
 
+.image{
+    max-width: 50px;
+}
 
 
