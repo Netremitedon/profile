@@ -1,16 +1,29 @@
+h1{
+    text-align: left;
+}
+
+
+
 .navbar{
-    padding: 0;
-    list-style: none;
-    float: left;
-    margin-left: 1em;   
+    background-image: url("resource/nav background.jpeg");
+    list-style-type: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
 }
 
 .nav{
     display: inline-block;
-    margin-right: 1em;  
-    font-weight: 700;
-    text-decoration: underline;
+    font-size: 20px;
+    padding: 10px;
+    border-style: outset ;
+    margin-inline-end: 30px;
+    
+    
 }
 li{
-    color: black;
+    color: white;
+}
+body{
+    background-color: #2f302f;
 }
