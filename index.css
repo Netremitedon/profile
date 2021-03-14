@@ -1,29 +1,53 @@
-h1{
-    text-align: left;
+.content{
+    margin: auto;
 }
 
-
+.cedric{
+    padding: 60px;
+    text-align: center;
+    
+    color: white;
+    font-size: 30px;  
+    font-family: Impact; 
+}
 
 .navbar{
     background-image: url("resource/nav background.jpeg");
     list-style-type: none;
-    text-align: center;
+    text-align: left;
     margin: 0px;
     padding: 0px;
+    border-bottom: 3px solid gray;
+    border-top: 3px solid gray;
 }
 
 .nav{
     display: inline-block;
     font-size: 20px;
     padding: 10px;
-    border-style: outset ;
-    margin-inline-end: 30px;
-    
+    margin-inline-end: 30px;  
+}
+
+.navbar a:hover {
+    border: outset;
+    padding-block: 8px;
+}
+.navbar a.active {
+    border: outset;
+    padding-block: 8px;
+    padding-inline: 10px;
     
 }
-li{
+
+li a{
     color: white;
+    text-decoration: none;
 }
+
 body{
     background-color: #2f302f;
 }
+
+
+
+
