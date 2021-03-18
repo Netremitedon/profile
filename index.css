@@ -4,10 +4,9 @@
 
 .cedric{
     background-image: url(/resource/cedric.jpeg);
-    object-fit: cover;
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
+    background-position: right;
     background-color: black;
     padding: 60px;
     text-align:left;
@@ -63,7 +62,9 @@ main p{
 }
 
 .image{
-    max-width: 50px;
+    
+    
+    
 }
 
 
